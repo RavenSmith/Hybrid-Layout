@@ -21,6 +21,7 @@
 		970876411B13F02C004C837F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970876231B13F02C004C837F /* UIKit.framework */; };
 		970876491B13F02C004C837F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 970876471B13F02C004C837F /* InfoPlist.strings */; };
 		9708764B1B13F02C004C837F /* HybridLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9708764A1B13F02C004C837F /* HybridLayoutTests.m */; };
+		970876551B13F060004C837F /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970876541B13F060004C837F /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		970876461B13F02C004C837F /* HybridLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HybridLayoutTests-Info.plist"; sourceTree = "<group>"; };
 		970876481B13F02C004C837F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9708764A1B13F02C004C837F /* HybridLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridLayoutTests.m; sourceTree = "<group>"; };
+		970876541B13F060004C837F /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = HybridLayout/View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		970876131B13F02C004C837F = {
 			isa = PBXGroup;
 			children = (
+				970876541B13F060004C837F /* View.xib */,
 				970876251B13F02C004C837F /* HybridLayout */,
 				970876441B13F02C004C837F /* HybridLayoutTests */,
 				9708761E1B13F02C004C837F /* Frameworks */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970876551B13F060004C837F /* View.xib in Resources */,
 				970876381B13F02C004C837F /* Images.xcassets in Resources */,
 				9708762A1B13F02C004C837F /* InfoPlist.strings in Resources */,
 				970876331B13F02C004C837F /* Main.storyboard in Resources */,
