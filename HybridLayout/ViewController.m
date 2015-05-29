@@ -29,7 +29,7 @@
 //demonstrates a hybrid layout: autosized nib receives progrmmatice autolayout specs
 -(void)loadView
 {
-    NSLog(@"new change");
+    NSLog(@"newer change");
     //create view
     self.view = [[UIView alloc]init];
     self.view.backgroundColor = [UIColor whiteColor];
